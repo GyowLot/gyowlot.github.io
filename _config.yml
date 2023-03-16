@@ -184,7 +184,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  experience:
+  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -236,12 +236,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _experience
+  # _talks
   - scope:
       path: ""
-      type: experience
+      type: talks
     values:
-      layout: experience
+      layout: talks
       author_profile: true
       share: true
 
